@@ -582,3 +582,10 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/xiaomi/topaz/topaz-vendor.mk)
+
+# Miui Camera
+$(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
+
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.miui.notch=1 \
+    ro.product.mod_device=topaz
