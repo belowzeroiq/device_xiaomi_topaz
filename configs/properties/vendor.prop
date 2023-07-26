@@ -227,6 +227,10 @@ ro.hardware.keystore_desede=true
 # Log
 ro.control_privapp_permissions=enforce
 
+# Hwui
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
+
 # Media
 vendor.mm.enable.qcom_parser=16711663
 
