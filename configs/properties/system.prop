@@ -26,6 +26,10 @@ debug.hwui.skia_atrace_enabled=false
 # IMS
 persist.vendor.ims.no_stapa=1
 
+# Deep Sleep
+pm.sleep_mode=1
+vendor.post_boot.parsed=1s
+
 # IOrap
 persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
 ro.iorapd.enable=false
