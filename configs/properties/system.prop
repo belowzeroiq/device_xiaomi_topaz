@@ -7,6 +7,9 @@ ro.charger.enable_suspend=1
 # Ftrace
 persist.debug.ftrace_events_disable=Yes
 
+# Fingerprint
+sys.fp.miui.token=0
+
 # Fwk-Detect
 ro.vendor.qti.va_aosp.support=1
 
